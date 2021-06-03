@@ -1,0 +1,70 @@
+h1{
+    color:black;
+}
+.header{
+    border: solid;
+    margin: 50px;
+    padding-right: 100px;
+}
+.menu{
+
+    border: solid;
+    margin-left: 100px;
+    padding: 30px;
+
+}
+.menu a{
+    margin-left: 20px;
+}
+.header{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+}
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    color: chartreuse;
+}
+.grid{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footer{
+    display: flex;
+justify-content: flex-end;
+}
+p,h2{
+    text-align: center;
+
+}
+body{
+    background-color: aquamarine;
+}
+.item{
+    position: relative;
+}
+.item p{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.item:hover p{
+    opacity: 1;
+
+}
+.item:hover img{
+    opacity: 0.33;
+}
+a:link{
+
+    color: chartreuse;
+}
+a :visited{
+    color: crimson;
+}
